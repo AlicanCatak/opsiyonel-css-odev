@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Opsiyonel odev</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="./fontawesome-free-6.6.0-web/css/all.min.css"
+    />
+  </head>
+  <body>
+    <h1 id="title">KAYIT FORMU</h1>
+    <br /><br />
+    <p id="description">
+      Lütfen sağdaki formu doldurarak kaydınızı tamamlayın.
+    </p>
+    <h1 class="baslık">KAYIT FORMU</h1>
+
+    <form id="survey-form" action="register">
+      <label class="isim" for="name"
+        ><i class="fa-solid fa-user"></i>Kullanıcı Adı</label
+      >
+      <input type="text" id="name" name="name" required />
+
+      <br /><br />
+
+      <label class="email" for="email"
+        ><i class="fa-solid fa-envelope"></i>E-mail</label
+      >
+      <input type="email" id="email" name="email " />
+      <br /><br />
+      <label class="age" for="age"
+        ><i class="fa-solid fa-cake-candles"></i>Yaş</label
+      >
+      <input type="number" id="number" name="age" />
+      <br /><br />
+      <label class="cinsiyet" for="options">Cinsiyet</label>
+      <br />
+      <select id="options" name="options">
+        <option value="selected disabled">Seçiniz</option>
+        <option value="">Erkek</option>
+        <option value="">Kadın</option>
+      </select>
+      <br /><br />
+
+      <h3>Bizi nereden duydunuz?</h3>
+      <input type="radio" id="insta" name="social" value="insta" />
+      <label class="insta" for="insta">
+        <i class="fa-brands fa-instagram"></i
+      ></label>
+
+      <input type="radio" id="face" name="social" value="face" />
+      <label class="face" for="face"
+        ><i class="fa-brands fa-facebook"></i
+      ></label>
+
+      <input type="radio" id="x" name="social" value="x" />
+      <label class="x" for="x"
+        ><i class="fa-brands fa-square-x-twitter"></i
+      ></label>
+
+      <br /><br />
+
+      <!-- 1. Onay Kutusu: Hizmet Şartları -->
+      <input type="checkbox" id="terms" name="terms" value="accepted" />
+      <label class="s1" for="terms">Sözleşmeyi Kabul ediyorum</label>
+      <br />
+      <!-- 2. Onay Kutusu: Haber Aboneliği -->
+      <input type="checkbox" id="subscribe" name="subscribe" value="news" />
+      <label class="s1" for="subscribe"
+        >Elektronik posta almayı kabul ediyorum</label
+      >
+      <br /><br />
+      <br />
+      <!-- Textarea Elemanı -->
+      <label class="yorum" for="comments ">Yorumlar</label>
+      <textarea
+        id="comments"
+        name="comments"
+        rows="4"
+        cols="50"
+        placeholder="Yorumlarınızı buraya yazınız"
+      ></textarea>
+
+      <!-- Gönder Butonu -->
+      <input class="btn" type="submit" value="Gönder!" />
+    </form>
+  </body>
+</html>

@@ -1,0 +1,168 @@
+body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #8e7ab5;
+}
+
+#survey-form {
+  background-color: #b784b7;
+  height: 600px;
+  width: 600px;
+  text-align: center;
+  border-radius: 10px;
+  border: 1px solid white;
+  padding: 20px;
+  margin-right: 190px;
+}
+
+#title {
+  padding: 30px;
+  position: absolute;
+  font-size: 100px;
+  text-align: center;
+  margin-right: 150px;
+}
+
+#description {
+  font-size: 30px;
+  padding: 45px;
+  margin-top: 160px;
+  position: absolute;
+  color: white;
+  border-bottom: 3px solid white;
+}
+
+.baslık {
+  position: absolute;
+  top: 50px;
+  justify-content: start;
+  left: 1250px;
+  font-size: 45px;
+  color: white;
+}
+
+input {
+  border: 2px solid #eea5a6;
+  border-radius: 7px;
+}
+
+.isim {
+  position: absolute;
+  top: 145px;
+  right: 550px;
+  background-color: white;
+
+  border-radius: 2px;
+  border: 2px solid #eea5a6;
+  font-size: 17px;
+  color: #b784b7;
+}
+
+#name {
+  height: 20px;
+  width: 400px;
+}
+
+#email {
+  height: 20px;
+  width: 400px;
+}
+
+#number {
+  height: 20px;
+  width: 400px;
+}
+
+.email {
+  position: absolute;
+  top: 190px;
+  right: 590px;
+  background-color: white;
+
+  border-radius: 2px;
+  border: 2px solid #eea5a6;
+  font-size: 17px;
+  color: #b784b7;
+}
+
+.age {
+  position: absolute;
+  top: 230px;
+  right: 610px;
+  background-color: white;
+
+  border-radius: 2px;
+  border: 2px solid #eea5a6;
+  font-size: 17px;
+  color: #b784b7;
+}
+
+.cinsiyet {
+  font-size: 35px;
+  color: white;
+}
+
+#options {
+  width: 400px;
+  height: 50px;
+  text-align: center;
+  color: #b784b7;
+  border: 2px solid #eea5a6;
+}
+
+h3 {
+  color: white;
+  font-size: 20px;
+  border-bottom: 2px solid white;
+  padding-bottom: 10px;
+}
+
+.insta {
+  color: aliceblue;
+  font-size: 30px;
+}
+
+.face {
+  color: aliceblue;
+  font-size: 30px;
+}
+
+.x {
+  color: aliceblue;
+  font-size: 30px;
+}
+
+.s1 {
+  color: white;
+  font-size: 18px;
+}
+
+#comments {
+  resize: none; /* Boyutlandırmayı kapatır */
+  width: 100%; /* Genişliği ayarlar, isteğine göre değiştirebilirsin */
+  height: 100px; /* Sabit yükseklik, ihtiyacına göre ayarla */
+  box-sizing: border-box; /* Kenarlık ve iç boşluk genişliğe dahil edilir */
+  border: 2px solid #eea5a6;
+}
+.yorum {
+  color: #b784b7;
+  border: 2px solid #eea5a6;
+  background-color: white;
+  font-size: 25px;
+  justify-content: flex-end;
+  position: absolute;
+  top: 580px;
+  right: 310px;
+}
+
+.btn {
+  width: 200px;
+  border-radius: 0px;
+  height: 50px;
+  background-color: #ffffff;
+  border: 1px solid rgb(239, 148, 148);
+  color: #b784b7;
+}
